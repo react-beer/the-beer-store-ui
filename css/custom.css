@@ -19,15 +19,27 @@
   margin-top: 80px;
 }
 
+.products .product-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /*.img-thumbnail {
   background: transparent;
   border: none;
 }*/
 
-.sold-out {
+/*.sold-out {
   color: #d12028;
   background: white;
   border-color: #d12028;
+  transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
+}*/
+
+.sold-out {
+  color: white;
+  background: red;
+  /*border-color: #d12028;*/
   transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
 }
 
