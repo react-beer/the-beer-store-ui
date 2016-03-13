@@ -25,6 +25,70 @@
     <img class="fork-ribbon" src="img/fork-ribbon.png" alt="Fork me on GitHub">
   </a>
 
+  <!-- Modal Details Cart -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Details Cart</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row item-cart">
+            <div class="col-xs-9 col-sm-9 col-md-6">
+              <h5 class="title">Bamberg O Calibre</h5>
+              <div class="amount-price">3x R$ 22,93</div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-6">
+              <button type="button" class="btn btn-danger pull-right">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="row item-cart">
+            <div class="col-xs-9 col-sm-9 col-md-6">
+              <h5 class="title">Eisenbahn Pilsen</h5>
+              <div class="amount-price">1x R$ 5,25</div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-6">
+              <button type="button" class="btn btn-danger pull-right">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="row item-cart">
+            <div class="col-xs-9 col-sm-9 col-md-6">
+              <h5 class="title">Juan Caloto</h5>
+              <div class="amount-price">2x R$ 21,00</div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-6">
+              <button type="button" class="btn btn-danger pull-right">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="row item-cart">
+            <div class="col-xs-9 col-sm-9 col-md-6">
+              <h5 class="title">Brewdog Punk IPA</h5>
+              <div class="amount-price">2x R$ 25,90</div>
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-6">
+              <button type="button" class="btn btn-danger pull-right">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>          
+        </div>
+        <div class="modal-footer">
+          <h4 class="total">Total: R$ 167,84</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <header class="header">
       <div class="row">
@@ -40,9 +104,9 @@
       <div class="row">
         <div class="col-md-12">
           <div class="pull-right">
-            <a href="#" class="btn btn-default" role="button">
-              <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Show Cart (0)
-            </a>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+              <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Show Cart (4)
+            </button>
           </div>
         </div>
       </div>

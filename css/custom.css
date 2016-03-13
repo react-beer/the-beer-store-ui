@@ -15,7 +15,7 @@ body {
   top: 0;
   right: 0;
   border: 0;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .header {
@@ -72,6 +72,32 @@ body {
 
 .nav-cart {
   margin-top: 250px;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-footer {
+  border: none;
+}
+
+.modal-footer .total {
+  font-weight: bold;
+}
+
+.item-cart {
+  border-bottom: 1px dashed #ccc;
+  padding: 10px 10px;
+}
+
+.item-cart .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.item-cart .amount-price {
+  font-size: 1.5rem;
 }
 
 .products {
