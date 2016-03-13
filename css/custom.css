@@ -139,13 +139,57 @@ body {
 
 /* RESPONSIVE */
 
-@media (max-width: 480px) {
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .product .sold-out {
+    margin-left: -35px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .product .sold-out {
+    margin-left: 222px;
+    margin-right: 222px;
+  }
+}
+
+/* Small Devices, Tablets Landscape */
+@media only screen and (max-width: 768px) {
+  .product .sold-out {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+/* Small Devices, Tablets Portrait */
+@media only screen and (max-width: 600px) {
+  .product .sold-out {
+    margin-left: 140px;
+    margin-right: 140px;
+  }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width: 480px) {
   .nav-cart {
-    margin-top: 280px;
+    margin-top: 285px;
   }
 
   .product .sold-out {
     margin-left: 50px;
     margin-right: 50px;
+  }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width: 360px) {
+  .nav-cart {
+    margin-top: 280px;
+  }
+
+  .product .sold-out {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
