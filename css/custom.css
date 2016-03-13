@@ -1,5 +1,21 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  background: #fff;
+  font-size: 18px;
+  color: #29251f;
+}
+
 .debug {
   border: 1px solid black;
+}
+
+.fork-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 9999;
 }
 
 .header {
