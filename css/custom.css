@@ -86,13 +86,6 @@
   text-align: center;
   border: 3px solid #fabbaa;
   font-size: 3rem;
-  -webkit-box-shadow:
-  inset 0 0 6px #ba051a,
-  inset 0 0 40px rgba(186,5,26, 0.3),
-  inset 0 0 100px rgba(186,5,26, 0.5),
-  0 0 6px #ba051a,
-  0 0 40px rgba(186,5,26, 0.3),
-  0 0 100px rgba(186,5,26, 0.5);
   box-shadow:
   inset 0 0 6px #ba051a,
   inset 0 0 40px rgba(186,5,26, 0.3),
@@ -107,30 +100,15 @@
   0px 0px 80px rgba(49,139,247, 0.6),
   0px 0px 100px rgba(49,139,247, 0.9);
   color: #affcf4;
-  -webkit-border-radius: 55px;
   border-radius: 55px;
 }
 
 .blink {
   display: inline;
-  -webkit-animation: blink 2.6s infinite;
-          animation: blink 2.6s infinite;
+  animation: blink 2.6s infinite;
 }
 
 @keyframes blink {
-  0%   {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  5%   {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7, 0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  6%   {color: #000;text-shadow: none;}
-  12%  {color: #000;text-shadow: none;}
-  13%  {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  25%  {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  26%  {color: #000;text-shadow: none;}
-  30%  {color: #000;text-shadow: none;}
-  31%  {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  100% {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7, 0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-}
-
-@-webkit-keyframes blink {
   0%   {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
   5%   {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7, 0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
   6%   {color: #000;text-shadow: none;}
