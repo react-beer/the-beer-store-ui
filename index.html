@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>The Beer Store</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius+Unicase:700">
   <link rel="stylesheet" href="css/custom.css">
@@ -29,7 +31,7 @@
       </div>
     </header>
 
-    <section class="navbar-cart">
+    <nav class="nav-cart">
       <div class="row">
         <div class="col-md-12">
           <div class="pull-right">
@@ -37,208 +39,47 @@
           </div>
         </div>
       </div>
-    </section>
+    </nav>
 
     <main class="products">
       <div class="row">
         <!-- 1 -->
         <div class="col-md-3 product">
-          <h4 class="product-name text-center">Abita Purple Haze</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Abita-Purple-Haze.jpg" class="img-responsive img-thumbnail" alt="Abita Purple Haze">
-          </div>
-          <div class="row">
+          <h4 class="title text-center">Abita Purple Haze</h4>
+          <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Abita-Purple-Haze.jpg" class="img-responsive img-thumbnail center-block" alt="Abita Purple Haze">
+          <div class="row box hidden">
             <div class="col-md-6">
-              <span class="product-price">Price: R$ 99,99</span>
+              <span class="price">Price: $ 99,99</span>
             </div>
             <div class="col-md-6">
-              <input type="number" class="form-control product-input" min="1" value="1">
+              <input type="number" class="form-control amount" min="1" value="1">
             </div>
           </div>
           <button class="btn sold-out" disabled>SOLD OUT!</button>
         </div>
 
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Abita Purple Haze</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Abita-Purple-Haze.jpg" class="img-responsive img-thumbnail" alt="Abita Purple Haze">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
+        <div class="col-md-3 product">
+          <h4 class="title text-center">Abita Purple Haze</h4>
+          <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Abita-Purple-Haze.jpg" class="img-responsive img-thumbnail center-block" alt="Abita Purple Haze">
+          <div class="row box">
+            <div class="col-xs-9 col-sm-9 col-md-6">
+              <span class="price"><b>Price:</b> $ 99,99</span>
             </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
+            <div class="col-xs-3 col-sm-3 col-md-6">
+              <input type="number" class="form-control amount" min="1" value="1">
             </div>
           </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Abita Purple Haze</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Abita-Purple-Haze.jpg" class="img-responsive img-thumbnail" alt="Abita Purple Haze">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Abita Purple Haze</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Abita-Purple-Haze.jpg" class="img-responsive img-thumbnail" alt="Abita Purple Haze">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Miller High Life</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Miller.jpg" class="img-responsive img-thumbnail" alt="Miller High Life">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <!-- 2 -->
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Miller High Life</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Miller.jpg" class="img-responsive img-thumbnail" alt="Miller High Life">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn sold-out" disabled>SOLD OUT!</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Miller High Life</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Miller.jpg" class="img-responsive img-thumbnail" alt="Miller High Life">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Miller High Life</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Miller.jpg" class="img-responsive img-thumbnail" alt="Miller High Life">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <!-- 3 -->
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Samuel Adams</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Sam-Adams.jpg" class="img-responsive img-thumbnail" alt="Samuel Adams">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Samuel Adams</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Sam-Adams.jpg" class="img-responsive img-thumbnail" alt="Samuel Adams">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Samuel Adams</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Sam-Adams.jpg" class="img-responsive img-thumbnail" alt="Samuel Adams">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
-        </div>
-
-        <div class="col-md-3">
-          <h4 class="product-name text-center">Samuel Adams</h4>
-          <div class="text-center">
-            <img src="http://images.meredith.com/rrmag/images/2012/05/ss_Sam-Adams.jpg" class="img-responsive img-thumbnail" alt="Samuel Adams">
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <span>Price: R$ 99,99</span>
-            </div>
-            <div class="col-md-6">
-              <input type="number" class="form-control" min="1" value="1">
-            </div>
-          </div>
-          <button class="btn btn-lg btn-block btn-primary">Add to Cart</button>
+          <button class="btn btn-lg btn-block btn-primary btn-add-cart">Add to Cart</button>
         </div>
       </div>
     </main>
+
+    <footer class="footer">
+      <p>Made with <span class="love">♥</span> by Breno Polanski</p>
+    </footer>
   </div>
 
+  <!-- JS -->
   <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
