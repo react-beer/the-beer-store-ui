@@ -6,7 +6,7 @@
   position: absolute;
   right: 0;
   left: 0;
-  padding: 4rem;
+  padding: 40px;
   background: url(../img/bg-header.jpg) repeat scroll center top transparent;
   background-size: cover;
 }
@@ -34,6 +34,7 @@
 }
 
 .product .price {
+  font-size: 1.4rem;
 }
 
 .product .amount {
@@ -64,11 +65,11 @@
 }
 
 .love {
-  color: #e74c3c;
-  display: inline-block;
-  font-size: 1.4em;
   position: relative;
-  top: 0.2em;
+  top: 2px;
+  display: inline-block;
+  color: #e74c3c;
+  font-size: 1.9rem;
   transform: scale(0.9);
   animation: love 0.5s infinite linear alternate-reverse;
 }
@@ -84,7 +85,7 @@
   text-transform: uppercase;
   text-align: center;
   border: 3px solid #fabbaa;
-  font-size: 30px;
+  font-size: 3rem;
   -webkit-box-shadow:
   inset 0 0 6px #ba051a,
   inset 0 0 40px rgba(186,5,26, 0.3),
