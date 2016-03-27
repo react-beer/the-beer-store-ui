@@ -2,6 +2,8 @@
 
 ## Demo
 
+![the-beer-store-ui](https://raw.githubusercontent.com/react-beer/the-beer-store-ui/master/the-beer-store.png)
+
 > [Check it live](http://react-beer.github.io/the-beer-store-ui/).
 
 ## Running
