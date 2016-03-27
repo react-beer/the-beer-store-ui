@@ -1,3 +1,25 @@
+/**
+ * Table of Contents:
+ *
+ *  0. GLOBAL
+ *  1. COMPONENTS
+ *    - 1.1. TITLE
+ *    - 1.2. CART
+ *    - 1.3. PRODUCTS
+ *  2. FOOTER
+ *  3. RESPONSIVE
+ *    - 3.1. LARGE DEVICES, WIDE SCREENS
+ *    - 3.2. MEDIUM DEVICES, DESKTOPS
+ *    - 3.3. SMALL DEVICES, TABLETS LANDSCAPE
+ *    - 3.4. SMALL DEVICES, TABLETS PORTRAIT
+ *    - 3.5. EXTRA SMALL DEVICES, PHONES
+ *    - 3.6. CUSTOM, IPHONE RETINA
+ */
+
+/* ==========================================================================
+   0. GLOBAL
+   ========================================================================== */
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -7,7 +29,7 @@ body {
 }
 
 .debug {
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 .fork-ribbon {
@@ -18,12 +40,19 @@ body {
   border: 0;
 }
 
+/* ==========================================================================
+   1. COMPONENTS
+   ========================================================================== */
+
+/* 1.1. TITLE
+   ========================================================================== */
+
 .header {
   position: absolute;
   right: 0;
   left: 0;
   padding: 40px;
-  background: url(../img/bg-header.jpg) repeat scroll center top transparent;
+  background: url("../img/bg-header.jpg") repeat scroll center top transparent;
   background-size: cover;
 }
 
@@ -98,6 +127,9 @@ body {
   }
 }
 
+/* 1.2. CART
+   ========================================================================== */
+
 .nav-cart {
   margin-top: 250px;
 }
@@ -128,6 +160,9 @@ body {
   font-size: 1.5rem;
 }
 
+/* 1.3. PRODUCTS
+   ========================================================================== */
+
 .products {
   margin-top: 50px;
 }
@@ -150,8 +185,6 @@ body {
   font-size: 1.4rem;
 }
 
-
-
 .product .btn-add-cart {
   font-weight: bold;
   border-radius: 0;
@@ -171,6 +204,10 @@ body {
 .product .sold-out[disabled] {
   opacity: 1;
 }
+
+/* ==========================================================================
+   2. FOOTER
+   ========================================================================== */
 
 .footer {
   text-align: center;
@@ -192,16 +229,22 @@ body {
   }
 }
 
-/* RESPONSIVE */
+/* ==========================================================================
+   3. RESPONSIVE
+   ========================================================================== */
 
-/* Large Devices, Wide Screens */
+/* 3.1 LARGE DEVICES, WIDE SCREENS
+   ========================================================================== */
+
 @media only screen and (max-width: 1200px) {
   .product .sold-out {
     margin-left: -35px;
   }
 }
 
-/* Medium Devices, Desktops */
+/* 3.2 MEDIUM DEVICES, DESKTOPS
+   ========================================================================== */
+
 @media only screen and (max-width: 992px) {
   .product .sold-out {
     margin-right: 222px;
@@ -209,7 +252,9 @@ body {
   }
 }
 
-/* Small Devices, Tablets Landscape */
+/* 3.3 SMALL DEVICES, TABLETS LANDSCAPE
+   ========================================================================== */
+
 @media only screen and (max-width: 768px) {
   .product .sold-out {
     margin-right: 200px;
@@ -217,7 +262,9 @@ body {
   }
 }
 
-/* Small Devices, Tablets Portrait */
+/* 3.4 SMALL DEVICES, TABLETS PORTRAIT
+   ========================================================================== */
+
 @media only screen and (max-width: 600px) {
   .product .sold-out {
     margin-right: 140px;
@@ -225,7 +272,9 @@ body {
   }
 }
 
-/* Extra Small Devices, Phones */
+/* 3.5 EXTRA SMALL DEVICES, PHONES
+   ========================================================================== */
+
 @media only screen and (max-width: 480px) {
   .nav-cart {
     margin-top: 285px;
@@ -237,7 +286,9 @@ body {
   }
 }
 
-/* Custom, iPhone Retina */
+/* 3.6 CUSTOM, IPHONE RETINA
+   ========================================================================== */
+
 @media only screen and (max-width: 360px) {
   .nav-cart {
     margin-top: 280px;
