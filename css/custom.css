@@ -1,9 +1,9 @@
 body {
   font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  background: #fff;
   font-size: 18px;
+  font-style: normal;
   color: #29251f;
+  background: #fff;
 }
 
 .debug {
@@ -12,10 +12,10 @@ body {
 
 .fork-ribbon {
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   border: 0;
-  z-index: 1;
 }
 
 .header {
@@ -30,26 +30,24 @@ body {
 .neon {
   padding: 25px 65px;
   font-family: "Delius Unicase", cursive;
+  font-size: 3rem;
+  color: #affcf4;
+  border: 3px solid #fabbaa;
+  border-radius: 55px;
+  box-shadow: inset 0 0 6px #ba051a,
+  inset 0 0 40px rgba(186,5,26, .3),
+  inset 0 0 100px rgba(186,5,26, .5),
+  0 0 6px #ba051a,
+  0 0 40px rgba(186,5,26, .3),
+  0 0 100px rgba(186,5,26, .5);
+  text-shadow: 0 0 5px #318bf7,
+  0 0 10px #318bf7,
+  0 0 10px #318bf7,
+  0 0 80px rgba(49,139,247, .6),
+  0 0 100px rgba(49,139,247, .9);
+  text-align: center;
   letter-spacing: 2rem;
   text-transform: uppercase;
-  text-align: center;
-  border: 3px solid #fabbaa;
-  font-size: 3rem;
-  box-shadow:
-  inset 0 0 6px #ba051a,
-  inset 0 0 40px rgba(186,5,26, 0.3),
-  inset 0 0 100px rgba(186,5,26, 0.5),
-  0 0 6px #ba051a,
-  0 0 40px rgba(186,5,26, 0.3),
-  0 0 100px rgba(186,5,26, 0.5);
-  text-shadow:
-  0px 0px 5px #318bf7,
-  0px 0px 10px #318bf7,
-  0px 0px 10px #318bf7,
-  0px 0px 80px rgba(49,139,247, 0.6),
-  0px 0px 100px rgba(49,139,247, 0.9);
-  color: #affcf4;
-  border-radius: 55px;
 }
 
 .blink {
@@ -58,16 +56,46 @@ body {
 }
 
 @keyframes blink {
-  0%   {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  5%   {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7, 0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  6%   {color: #000;text-shadow: none;}
-  12%  {color: #000;text-shadow: none;}
-  13%  {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  25%  {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  26%  {color: #000;text-shadow: none;}
-  30%  {color: #000;text-shadow: none;}
-  31%  {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7,  0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
-  100% {color: #affcf4;text-shadow:0px 0px 5px #318bf7,0px 0px 10px #318bf7,0px 0px 10px #318bf7, 0px 0px 80px rgba(49,139,247, 0.6),0px 0px 100px rgba(49,139,247, 0.9);}
+  0% {
+    color: #affcf4;
+    text-shadow: 0 0 5px #318bf7,0 0 10px #318bf7,0 0 10px #318bf7,  0 0 80px rgba(49,139,247, .6),0 0 100px rgba(49,139,247, .9);
+  }
+  5% {
+    color: #affcf4;
+    text-shadow: 0 0 5px #318bf7,0 0 10px #318bf7,0 0 10px #318bf7, 0 0 80px rgba(49,139,247, .6),0 0 100px rgba(49,139,247, .9);
+  }
+  6% {
+    color: #000;
+    text-shadow: none;
+  }
+  12% {
+    color: #000;
+    text-shadow: none;
+  }
+  13% {
+    color: #affcf4;
+    text-shadow: 0 0 5px #318bf7,0 0 10px #318bf7,0 0 10px #318bf7,  0 0 80px rgba(49,139,247, .6),0 0 100px rgba(49,139,247, .9);
+  }
+  25% {
+    color: #affcf4;
+    text-shadow: 0 0 5px #318bf7,0 0 10px #318bf7,0 0 10px #318bf7,  0 0 80px rgba(49,139,247, .6),0 0 100px rgba(49,139,247, .9);
+  }
+  26% {
+    color: #000;
+    text-shadow: none;
+  }
+  30% {
+    color: #000;
+    text-shadow: none;
+  }
+  31% {
+    color: #affcf4;
+    text-shadow: 0 0 5px #318bf7,0 0 10px #318bf7,0 0 10px #318bf7,  0 0 80px rgba(49,139,247, .6),0 0 100px rgba(49,139,247, .9);
+  }
+  100% {
+    color: #affcf4;
+    text-shadow: 0 0 5px #318bf7,0 0 10px #318bf7,0 0 10px #318bf7, 0 0 80px rgba(49,139,247, .6),0 0 100px rgba(49,139,247, .9);
+  }
 }
 
 .nav-cart {
@@ -87,8 +115,8 @@ body {
 }
 
 .item-cart {
-  border-bottom: 1px dashed #ccc;
   padding: 10px 10px;
+  border-bottom: 1px dashed #ccc;
 }
 
 .item-cart .title {
@@ -109,8 +137,8 @@ body {
 }
 
 .product .title {
-  text-transform: uppercase;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .product .box {
@@ -122,19 +150,18 @@ body {
   font-size: 1.4rem;
 }
 
-.product .amount {
-}
+
 
 .product .btn-add-cart {
-  border-radius: 0;
   font-weight: bold;
+  border-radius: 0;
 }
 
 .product .sold-out {
   color: #fff;
+  border-radius: 0;
   background: #d12028;
   transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
-  border-radius: 0;
 }
 
 .product .sold-out:hover {
@@ -153,14 +180,16 @@ body {
   position: relative;
   top: 2px;
   display: inline-block;
-  color: #e74c3c;
   font-size: 1.9rem;
-  transform: scale(0.9);
-  animation: love 0.5s infinite linear alternate-reverse;
+  color: #e74c3c;
+  transform: scale(.9);
+  animation: love .5s infinite linear alternate-reverse;
 }
 
 @keyframes love {
-  to { transform: scale(1.2); }
+  to {
+    transform: scale(1.2);
+  }
 }
 
 /* RESPONSIVE */
@@ -175,47 +204,47 @@ body {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .product .sold-out {
-    margin-left: 222px;
     margin-right: 222px;
+    margin-left: 222px;
   }
 }
 
 /* Small Devices, Tablets Landscape */
 @media only screen and (max-width: 768px) {
   .product .sold-out {
-    margin-left: 200px;
     margin-right: 200px;
+    margin-left: 200px;
   }
 }
 
 /* Small Devices, Tablets Portrait */
 @media only screen and (max-width: 600px) {
   .product .sold-out {
-    margin-left: 140px;
     margin-right: 140px;
+    margin-left: 140px;
   }
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .nav-cart {
     margin-top: 285px;
   }
 
   .product .sold-out {
-    margin-left: 50px;
     margin-right: 50px;
+    margin-left: 50px;
   }
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media only screen and (max-width: 360px) {
   .nav-cart {
     margin-top: 280px;
   }
 
   .product .sold-out {
-    margin-left: 25px;
     margin-right: 25px;
+    margin-left: 25px;
   }
 }
