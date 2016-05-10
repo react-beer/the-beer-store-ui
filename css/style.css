@@ -127,6 +127,14 @@ body {
   }
 }
 
+/* 1.2. LOGIN
+   ========================================================================== */
+
+.login {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
 /* 1.2. CART
    ========================================================================== */
 
@@ -215,11 +223,19 @@ body {
   text-align: center;
 }
 
+.footer-fixed {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
 .love {
   position: relative;
   top: 2px;
   display: inline-block;
-  font-size: 1.9rem;
+  font-size: 1.3rem;
   color: #e74c3c;
   transform: scale(.9);
   animation: love .5s infinite linear alternate-reverse;
@@ -271,6 +287,10 @@ body {
   .product .sold-out {
     margin-right: 140px;
     margin-left: 140px;
+  }
+
+  .footer-fixed {
+    position: static;
   }
 }
 
