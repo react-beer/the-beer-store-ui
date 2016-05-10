@@ -2,7 +2,7 @@
 
 ## Demo
 
-![the-beer-store-ui](https://raw.githubusercontent.com/react-beer/the-beer-store-ui/master/the-beer-store.png)
+[![the-beer-store-ui](https://raw.githubusercontent.com/react-beer/the-beer-store-ui/master/the-beer-store.png)](http://react-beer.github.io/the-beer-store-ui/)
 
 > [Check it live](http://react-beer.github.io/the-beer-store-ui/).
 
