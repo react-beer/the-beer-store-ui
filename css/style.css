@@ -21,6 +21,11 @@
    0. GLOBAL
    ========================================================================== */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -39,6 +44,17 @@ body {
   top: 0;
   right: 0;
   border: 0;
+}
+
+.msg-error {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+
+.msg-error h1 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ==========================================================================
@@ -224,7 +240,7 @@ body {
   text-align: center;
 }
 
-.footer-fixed {
+.fixed-bottom {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -288,10 +304,6 @@ body {
   .product .sold-out {
     margin-right: 140px;
     margin-left: 140px;
-  }
-
-  .footer-fixed {
-    position: static;
   }
 }
 
