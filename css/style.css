@@ -57,6 +57,10 @@ body {
   text-transform: uppercase;
 }
 
+.msg-error p {
+  text-align: center;
+}
+
 /* ==========================================================================
    1. COMPONENTS
    ========================================================================== */
@@ -240,12 +244,11 @@ body {
   text-align: center;
 }
 
-.fixed-bottom {
+.footer.fixed-bottom {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  text-align: center;
 }
 
 .love {
